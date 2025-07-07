@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kelly+Slab&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Forum", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Cera Pro", sans-serif;
+  --font4: "Roboto", sans-serif;
+  --font5: "Kelly Slab", sans-serif;
+  --font6: "Onest", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header {
+  backdrop-filter: blur(9.800000190734863px);
+  background: rgba(255, 255, 255, 0.77);
+  width: 100%;
+}
+
+.header .container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #404040;
+  text-decoration: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.header-tel {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #383838;
+  text-decoration: none;
+}
+
+.header-btn {
+  border: 1px solid #6a704c;
+  border-radius: 20px;
+  padding: 16px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #6a704c;
+  cursor: pointer;
+  margin-left: 15px;
+}
