@@ -267,3 +267,60 @@ img {
 .info-container-text span {
   font-weight: 700
 }
+
+.projects {
+  margin-top: 60px;
+  border-radius: 60px;
+  background: #fff;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.section-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.projects-card {
+  border-radius: 23px;
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.projects-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+}
+
+.projects-card-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.projects-card-svg {
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+  background: #6a704c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
