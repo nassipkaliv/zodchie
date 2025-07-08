@@ -165,6 +165,7 @@ img {
   padding: 25px;
   justify-content: space-between;
   margin-top: 120px;
+  cursor: pointer;
 }
 
 .intro-btn span {
@@ -191,4 +192,78 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.info {
+  padding-top: 190px;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.info .container {
+  display: flex;
+  gap: 135px;
+}
+
+.infobg {
+  position: absolute;
+  top: -12%;
+  left: 0;
+  z-index: 0;
+}
+
+.info-title {
+  text-wrap: balance;
+  max-width: 455px;
+}
+
+.info-text {
+  max-width: 455px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-wrap: balance;
+  margin-top: 80px;
+}
+
+.info-right {
+  position: relative;
+}
+
+.info-img2 {
+  position: absolute;
+  bottom: -86px;
+  left: -105px;
+}
+
+.info-img3 {
+  position: absolute;
+  bottom: -86px;
+  right: -100px;
+}
+
+.info-container {
+  position: absolute;
+  border-radius: 41px;
+  width: 320px;
+  background: #112d1d;
+  padding: 45px 22px 65px 40px;
+  top: 10%;
+  right: -35%;
+}
+
+.info-container-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.info-container-text span {
+  font-weight: 700
 }
