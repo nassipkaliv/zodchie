@@ -291,6 +291,7 @@ img {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  margin-top: 45px;
 }
 
 .projects-card {
@@ -323,4 +324,66 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.stages {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.stages-container {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.stages-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stages-row {
+  display: flex;
+  gap: 23px;
+}
+
+.stages-card {
+  position: relative;
+  border-radius: 23px;
+  height: 150px;
+  background: #434343;
+  padding: 35px 30px; 
+  width: 100%;
+}
+
+.stages-card-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-wrap: balance;
+  max-width: 221px;
+}
+
+.stages-card-title span {
+  font-weight: 600;
+}
+
+.stages-card img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+.stages-left {
+  width: 67.5%;
+}
+
+.stages-right {
+  width: 32.5%;
+  flex: 1;
 }
