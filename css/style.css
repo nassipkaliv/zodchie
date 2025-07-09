@@ -328,7 +328,7 @@ img {
 
 .stages {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 130px;
 }
 
 .stages-container {
@@ -469,4 +469,94 @@ img {
 
 .work-stage-title.active, .work-stage-text.active {
   color: #fff;
+}
+
+.zayavka {
+  position: relative;
+  overflow: hidden;
+  background: url("../assets/img/zayavkabg.png");
+  height: 650px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 61px;
+}
+
+.zayavka-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.zayavka-container .section-title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.zayavka-container .section-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-wrap: balance;
+  margin-left: auto;
+  max-width: 500px;
+}
+
+.zayavka-left {
+  flex: 1;
+}
+
+.zayavka-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 115px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0 30px;
+  background: #fff;
+  outline: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #070707;
+  border: none;
+  height: 60px;
+}
+
+.form-input::placeholder {
+  opacity: 0.3;
+}
+
+.form-button {
+  width: 100%;
+  background: #ede0d0;
+  padding: 19px 30px;
+  height: 60px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 245%;
+  text-align: center;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
 }
