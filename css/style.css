@@ -113,6 +113,10 @@ img {
   position: relative;
 }
 
+.about-intro {
+  background: none;
+}
+
 .intro-left {
   position: relative;
   z-index: 1;
@@ -696,4 +700,43 @@ img {
   line-height: 140%;
   letter-spacing: 0.05em;
   color: #fff;
+}
+
+.nebo {
+  position: absolute;
+  top: 0;
+}
+
+.about-intro .container {
+  padding-top: 30px;
+}
+
+.about-intro-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-wrap: balance;
+  max-width: 690px;
+}
+
+.about-intro-title span {
+  font-weight: 500;
+}
+
+.about-intro .intro-right-img {
+  width: auto;
+  bottom: 15%;
+}
+
+.intro-breadcrumb {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-bottom: 60px;
 }
