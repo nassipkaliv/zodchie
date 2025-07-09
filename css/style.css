@@ -387,3 +387,86 @@ img {
   width: 32.5%;
   flex: 1;
 }
+
+.work-stages {
+  margin-top: 200px;
+  display: flex;
+  gap: 55px;
+  align-items: stretch;
+}
+
+.work-stages-left {
+  position: relative;
+}
+
+.stage-img2 {
+  position: absolute;
+  left: 6%;
+  top: 0%;
+}
+
+.stage-img3 {
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+}
+
+.stage-img4 {
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+}
+
+.work-stages-left .section-title {
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.work-stage {
+  border-radius: 23px;
+  padding: 21px 25px 25px 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  background: #cdb89d;
+  max-width: 620px;
+}
+
+.work-stages-left {
+  width: 50%;
+}
+
+.work-stages-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.work-stage-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #5e2511;
+  white-space: nowrap;
+}
+
+.work-stage-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.work-stage.active {
+  background: #112d1d;
+}
+
+.work-stage-title.active, .work-stage-text.active {
+  color: #fff;
+}
