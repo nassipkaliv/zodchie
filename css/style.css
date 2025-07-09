@@ -560,3 +560,27 @@ img {
   justify-content: center;
   border: none;
 }
+
+.gallery {
+  padding-top: 115px;
+  padding-bottom: 210px;
+}
+
+.gallerySwiper {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 0 10px;
+  margin-top: 40px;
+}
+.gallerySlide {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+.gallerySlide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

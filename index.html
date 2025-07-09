@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <title>Zodchie</title>
 </head>
 <body>
@@ -242,5 +243,85 @@
     </div>
   </section>
 
+  <section class="gallery">
+    <div class="container">
+      <h2 class="section-title">
+        Фото
+      </h2>
+    </div>
+    <div class="swiper gallerySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto2.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto7.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto3.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto8.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto4.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto9.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto5.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto10.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto6.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto2.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto7.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto3.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto8.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto4.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto9.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto5.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto10.png" alt="foto1" class="galeryFoto">
+        </div>
+        <div class="swiper-slide gallerySlide">
+          <img src="assets/img/foto6.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+        </div>
+      </div>
+  </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+  const swiper = new Swiper(".gallerySwiper", {
+    slidesPerView: 6.0,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+      1024: {
+        slidesPerView: 6,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      0: {
+        slidesPerView: 1,
+      },
+    }
+  });
+  </script>
 </body>
 </html>
