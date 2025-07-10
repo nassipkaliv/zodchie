@@ -2040,4 +2040,43 @@ img {
   justify-content: center;
   background: #eef1e1;
   border-radius: 100%;
+  transition: all 0.3s ease;
+  color: #6a704c; 
+}
+.arrow-left:hover, .arrow-right:hover {
+  background: #6a704c;
+  color: #fff;
+}
+
+.production {
+  margin-top: 165px;
+}
+
+.production-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.production-container .section-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  max-width: 725px;
+}
+
+.production-arrows {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.prodFoto {
+  height: 330px;
+  width: 100%;
 }

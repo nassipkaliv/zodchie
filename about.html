@@ -427,6 +427,77 @@
     </div>
   </section>
 
+  <section class="production">
+    <div class="container">
+      <h2 class="section-title">
+        Наше производтсво
+      </h2>
+      <div class="production-container">
+        <p class="section-text">Всё начинается с качественного сырья — мы используем древесину зимнего леса: сосну, кедр и лиственницу, заготавливаем её самостоятельно в экологически чистых регионах.</p>
+        <div class="production-arrows">
+          <div class="arrow-left prod-arrow-left">
+            <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_128_175)">
+                <path d="M17.5047 21.6024L15.5595 23.5475L4.96469 12.9471C4.79391 12.7773 4.65837 12.5753 4.56588 12.3528C4.4734 12.1303 4.42578 11.8917 4.42578 11.6507C4.42578 11.4098 4.4734 11.1712 4.56588 10.9487C4.65837 10.7262 4.79391 10.5242 4.96469 10.3544L15.5595 -0.251466L17.5029 1.69355L7.55886 11.648L17.5047 21.6024Z" fill="currentColor" />
+              </g>
+              <defs>
+                <clipPath id="clip0_128_175">
+                  <rect width="22" height="24" fill="white" transform="translate(22 24) rotate(180)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="arrow-right prod-arrow-right">
+            <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_128_175)">
+                <path d="M4.49531 2.39756L6.44048 0.452547L17.0353 11.0529C17.2061 11.2227 17.3416 11.4247 17.4341 11.6472C17.5266 11.8697 17.5742 12.1083 17.5742 12.3493C17.5742 12.5902 17.5266 12.8288 17.4341 13.0513C17.3416 13.2738 17.2061 13.4758 17.0353 13.6456L6.44048 24.2515L4.49714 22.3064L14.4411 12.352L4.49531 2.39756Z" fill="currentColor" />
+              </g>
+              <defs>
+                <clipPath id="clip0_128_175">
+                  <rect width="22" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper productionSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/img/prod1.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod2.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod3.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod4.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod5.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod1.png" alt="foto1" class="prodFoto">
+        </div>
+                <div class="swiper-slide">
+          <img src="assets/img/prod2.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod3.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod4.png" alt="foto1" class="prodFoto">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/prod5.png" alt="foto1" class="prodFoto">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="gallery">
     <div class="container">
       <h2 class="section-title">
@@ -484,7 +555,7 @@
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
         </div>
       </div>
-  </div>
+    </div>
   </section>
 
   <section class="zayavka">
@@ -620,6 +691,29 @@
       },
     }
   });
+  </script>
+
+    <script>
+      const productionSwiper = new Swiper(".productionSwiper", {
+        slidesPerView: 4.8,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: '.prod-arrow-right',
+          prevEl: '.prod-arrow-left',
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 4.8,
+          },
+          480: {
+            slidesPerView: 3,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }
+      });
   </script>
 
   <script>
