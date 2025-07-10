@@ -2114,3 +2114,55 @@ img {
   color: #201e1e;
   text-wrap: balance;
 }
+
+.ab-gallery {
+  padding-bottom: 75px;
+}
+
+.about-zayavka {
+  background: url("../assets/img/ab-zayavkabg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.ab-zayavka-home {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.about-zayavka-title {
+  color: #000;
+  text-wrap: balance;
+  max-width: 700px;
+  text-transform: uppercase;
+}
+
+.about-zayavka-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-top: 30px;
+  max-width: 575px;
+  text-wrap: balance;
+}
+
+.zayavka-form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 32px;
+  margin-top: 80px;
+  max-width: 740px;
+}
+
+.zayavka-form-container input {
+  max-width: 360px;
+}
