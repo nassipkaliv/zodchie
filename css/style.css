@@ -22,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f9f9;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -36,7 +37,8 @@ body {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1280px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -169,6 +171,23 @@ img {
   justify-content: space-between;
   margin-top: 120px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.intro-btn:hover {
+  background: #fff;
+}
+
+.intro-btn:hover span {
+  color: #434343;
+}
+
+.intro-btn:hover .intro-btn-svg {
+  background: #434343;
+}
+
+.intro-btn:hover .intro-btn-svg path {
+  fill: #fff;
 }
 
 .intro-btn span {
@@ -195,6 +214,10 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.intro-btn-svg path {
+  fill: #6A704C;
 }
 
 .info {
@@ -562,6 +585,7 @@ img {
   align-items: center;
   justify-content: center;
   border: none;
+  cursor: pointer;
 }
 
 .gallery {
@@ -1236,11 +1260,13 @@ img {
   padding: 18px 24px;
   border-radius: 8px;
   border: none;
+  font-family: var(--font-family);
   background: #f8f8f7;
   font-size: 16px;
   font-weight: 300;
   color: #070707;
   margin-bottom: 24px;
+  outline: none;
 }
 
 .project-plan__consult-btn {
@@ -1269,10 +1295,6 @@ img {
     gap: 32px;
     margin-left: 0;
     align-items: center;
-  }
-  .section-title {
-    margin-left: 0;
-    text-align: center;
   }
 }
 
@@ -2165,4 +2187,19 @@ img {
 
 .zayavka-form-container input {
   max-width: 360px;
+}
+
+.vk-icon {
+  border-radius: 100%;
+  background: #434343;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.vk-icon:hover {
+  background: #6a704c;
 }
