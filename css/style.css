@@ -1871,3 +1871,100 @@ img {
   -ms-user-select: none;
   pointer-events: auto;
 }
+
+.wedo .section-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 765px;
+}
+
+.wedo-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.wedo-card {
+  padding: 28px 36px;
+  border-radius: 23px;
+  background: #434343;
+  width: 100%;
+}
+
+.wedo-card-title {
+  margin-top: 7px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.wedo-card-content {
+  margin-top: 33px;
+
+}
+
+.wedo-card-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.derevo {
+  margin-top: 230px;
+}
+
+.derevo-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.derevo-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.derevo-content {
+  max-width: 500px;
+}
+
+.derevo-left {
+  position: relative;
+  margin-top: -200px;
+  margin-left: -130px;
+}
+
+.derevo-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.derevo-title span {
+  font-weight: 600;
+}
+
+.derevo-text {
+  margin-top: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+}
