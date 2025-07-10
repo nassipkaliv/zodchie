@@ -201,6 +201,232 @@
     </div>
   </section>
 
+  <section class="our-projects">
+    <div class="container">
+      <div class="our-projects-container">
+        <div class="our-projects-left">
+          <h2 class="section-title">Наши проекты</h2>
+          <p class="section-text">Мы создаём не просто дома и бани, а уютное пространство, в котором хочется жить.<br>Ручная рубка, натуральное дерево, тепло и красота в каждой детали — смотрите сами.</p>
+          <button class="product__btn product__btn--primary">
+            Запросить смету
+          </button>
+          <div class="our-projects-stat">
+            <div class="projects-stat-block">
+              <div class="projects-stat-title">50+</div>
+              <div class="projects-stat-text">домов</div>
+            </div>
+            <div class="projects-stat-block">
+              <div class="projects-stat-title">10+</div>
+              <div class="projects-stat-text">интерьеров</div>
+            </div>
+            <div class="projects-stat-block">
+              <div class="projects-stat-title">60+</div>
+              <div class="projects-stat-text">бань</div>
+            </div>
+          </div>
+        </div>
+        <div class="our-projects-right">
+           <div class="product__gallery">
+            <!-- Main Gallery Swiper -->
+            <div class="product__gallery-main">
+              <div class="swiper productGalleryMain">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-image"
+                    />
+                  </div>
+                </div>
+                <!-- Navigation arrows -->
+                <div class="product__gallery-nav product__gallery-nav--prev">
+                  <svg
+                    width="21"
+                    height="34"
+                    viewBox="0 0 21 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.06842 15.104L16.6252 0.0186879L20.5137 3.78935L6.90117 16.9894L20.5137 30.1894L16.6252 33.96L1.06842 18.8747C0.552879 18.3746 0.263261 17.6965 0.263261 16.9894C0.263261 16.2823 0.552879 15.6041 1.06842 15.104Z"
+                      fill="#FFFAF5"
+                      fill-opacity="0.8"
+                    />
+                  </svg>
+                </div>
+                <div class="product__gallery-nav product__gallery-nav--next">
+                  <svg
+                    width="21"
+                    height="34"
+                    viewBox="0 0 21 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.9316 18.896L4.37483 33.9813L0.486328 30.2106L14.0988 17.0106L0.486328 3.81064L4.37483 0.039978L19.9316 15.1253C20.4471 15.6254 20.7367 16.3035 20.7367 17.0106C20.7367 17.7177 20.4471 18.3959 19.9316 18.896Z"
+                      fill="#FFFAF5"
+                      fill-opacity="0.8"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thumbnails Swiper -->
+            <div class="product__gallery-thumbs">
+              <div class="swiper productGalleryThumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-thumb"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-thumb"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-thumb"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project-example-active.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-thumb"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Popup Modal -->
+          <div class="product__gallery-popup" id="galleryPopup">
+            <div class="product__gallery-popup-overlay"></div>
+            <div class="product__gallery-popup-content">
+              <button class="product__gallery-popup-close">&times;</button>
+              <div class="swiper productGalleryPopup">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project1.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-popup-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project1.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-popup-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project1.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-popup-image"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./assets/img/project1.png"
+                      alt="Дом из бревна"
+                      class="product__gallery-popup-image"
+                    />
+                  </div>
+                </div>
+                <!-- Navigation arrows for popup -->
+                <div
+                  class="product__gallery-popup-nav product__gallery-popup-nav--prev"
+                >
+                  <svg
+                    width="21"
+                    height="34"
+                    viewBox="0 0 21 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.06842 15.104L16.6252 0.0186879L20.5137 3.78935L6.90117 16.9894L20.5137 30.1894L16.6252 33.96L1.06842 18.8747C0.552879 18.3746 0.263261 17.6965 0.263261 16.9894C0.263261 16.2823 0.552879 15.6041 1.06842 15.104Z"
+                      fill="#FFFAF5"
+                      fill-opacity="0.8"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="product__gallery-popup-nav product__gallery-popup-nav--next"
+                >
+                  <svg
+                    width="21"
+                    height="34"
+                    viewBox="0 0 21 34"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.9316 18.896L4.37483 33.9813L0.486328 30.2106L14.0988 17.0106L0.486328 3.81064L4.37483 0.039978L19.9316 15.1253C20.4471 15.6254 20.7367 16.3035 20.7367 17.0106C20.7367 17.7177 20.4471 18.3959 19.9316 18.896Z"
+                      fill="#FFFAF5"
+                      fill-opacity="0.8"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-video">
+    <div class="container">
+      <h2 class="section-title">Видео</h2>
+      <div class="project-video__iframe-container">
+        <iframe width="1260" height="530" src="https://www.youtube.com/embed/sCvFxKqLRig?start=748" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </section>
+
   <section class="gallery">
     <div class="container">
       <h2 class="section-title">
@@ -395,5 +621,215 @@
     }
   });
   </script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const productGalleryThumbs = new Swiper(".productGalleryThumbs", {
+          spaceBetween: 10,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true,
+          breakpoints: {
+            768: {
+              slidesPerView: 4,
+            },
+            480: {
+              slidesPerView: 3,
+            },
+            0: {
+              slidesPerView: 2,
+            },
+          },
+        });
+
+        const productGalleryMain = new Swiper(".productGalleryMain", {
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".product__gallery-nav--next",
+            prevEl: ".product__gallery-nav--prev",
+          },
+          thumbs: {
+            swiper: productGalleryThumbs,
+          },
+          loop: false,
+          effect: "slide",
+          speed: 300,
+        });
+
+        const productGalleryPopup = new Swiper(".productGalleryPopup", {
+          spaceBetween: 0,
+          navigation: {
+            nextEl: ".product__gallery-popup-nav--next",
+            prevEl: ".product__gallery-popup-nav--prev",
+          },
+          loop: false,
+          effect: "slide",
+          speed: 300,
+          keyboard: {
+            enabled: true,
+          },
+        });
+
+        function updateMainGalleryArrows() {
+          const prevBtn = document.querySelector(".product__gallery-nav--prev");
+          const nextBtn = document.querySelector(".product__gallery-nav--next");
+
+          if (productGalleryMain.isBeginning) {
+            prevBtn.classList.add("swiper-button-disabled");
+          } else {
+            prevBtn.classList.remove("swiper-button-disabled");
+          }
+
+          if (productGalleryMain.isEnd) {
+            nextBtn.classList.add("swiper-button-disabled");
+          } else {
+            nextBtn.classList.remove("swiper-button-disabled");
+          }
+        }
+
+        function updatePopupGalleryArrows() {
+          const prevBtn = document.querySelector(
+            ".product__gallery-popup-nav--prev"
+          );
+          const nextBtn = document.querySelector(
+            ".product__gallery-popup-nav--next"
+          );
+
+          if (productGalleryPopup.isBeginning) {
+            prevBtn.classList.add("swiper-button-disabled");
+          } else {
+            prevBtn.classList.remove("swiper-button-disabled");
+          }
+
+          if (productGalleryPopup.isEnd) {
+            nextBtn.classList.add("swiper-button-disabled");
+          } else {
+            nextBtn.classList.remove("swiper-button-disabled");
+          }
+        }
+
+        updateMainGalleryArrows();
+        updatePopupGalleryArrows();
+
+        productGalleryMain.on("slideChange", function () {
+          updateMainGalleryArrows();
+        });
+
+        productGalleryPopup.on("slideChange", function () {
+          updatePopupGalleryArrows();
+        });
+
+        const galleryPopup = document.getElementById("galleryPopup");
+        const galleryImages = document.querySelectorAll(
+          ".product__gallery-image"
+        );
+        const popupClose = document.querySelector(
+          ".product__gallery-popup-close"
+        );
+        const popupOverlay = document.querySelector(
+          ".product__gallery-popup-overlay"
+        );
+
+        productGalleryMain.on("slideChange", function () {
+          if (galleryPopup.classList.contains("active")) {
+            productGalleryPopup.slideTo(productGalleryMain.realIndex, 0);
+          }
+        });
+
+        function closePopup() {
+          galleryPopup.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+
+        popupClose.addEventListener("click", closePopup);
+        popupOverlay.addEventListener("click", closePopup);
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && galleryPopup.classList.contains("active")) {
+            closePopup();
+          }
+        });
+
+        productGalleryPopup.on("slideChange", function () {
+          productGalleryMain.slideTo(productGalleryPopup.realIndex, 0);
+          updateMainGalleryArrows();
+        });
+
+        galleryImages.forEach((image, index) => {
+          image.addEventListener("click", function () {
+            galleryPopup.classList.add("active");
+            productGalleryPopup.slideTo(index, 0);
+            updatePopupGalleryArrows();
+            document.body.style.overflow = "hidden";
+          });
+        });
+
+        const recommendationsSwiper = new Swiper(".recommendationsSwiper", {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          loop: true,
+          breakpoints: {
+            1024: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            0: {
+              slidesPerView: 1,
+            },
+          },
+        });
+
+        const faqItems = document.querySelectorAll(".faq__item");
+
+        faqItems.forEach((item) => {
+          const question = item.querySelector(".faq__question");
+          const answer = item.querySelector(".faq__answer");
+          const arrow = item.querySelector(".faq__arrow");
+
+          question.addEventListener("click", function () {
+            const isOpen = item.classList.contains("faq__item--open");
+
+            if (isOpen) {
+              item.classList.remove("faq__item--open");
+              arrow.classList.remove("faq__arrow--up");
+              arrow.classList.add("faq__arrow--down");
+
+              arrow.innerHTML = `
+          <svg width="34" height="17" viewBox="0 0 34 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_29_2956)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9925 14.3891L7.97843 6.37499L9.9816 4.37183L16.9941 11.3843L24.0066 4.37183L26.0098 6.37499L17.9957 14.3891C17.73 14.6547 17.3697 14.8039 16.9941 14.8039C16.6185 14.8039 16.2582 14.6547 15.9925 14.3891Z" fill="#5E2511"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_29_2956">
+                <rect width="17" height="34" fill="white" transform="translate(34) rotate(90)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        `;
+            } else {
+              item.classList.add("faq__item--open");
+              arrow.classList.remove("faq__arrow--down");
+              arrow.classList.add("faq__arrow--up");
+
+              // Update SVG
+              arrow.innerHTML = `
+          <svg width="34" height="17" viewBox="0 0 34 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_29_2952)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0075 2.61092L26.0216 10.625L24.0184 12.6282L17.0059 5.61567L9.9934 12.6282L7.99023 10.625L16.0043 2.61092C16.27 2.34534 16.6303 2.19614 17.0059 2.19614C17.3815 2.19614 17.7418 2.34534 18.0075 2.61092Z" fill="#5E2511"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_29_2952">
+                <rect width="17" height="34" fill="white" transform="translate(0 17) rotate(-90)"/>
+              </clipPath>
+            </defs>
+          </svg>
+        `;
+            }
+          });
+        });
+      });
+    </script>
 </body>
 </html>
