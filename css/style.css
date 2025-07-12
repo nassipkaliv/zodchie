@@ -2558,6 +2558,7 @@ img {
   .section-title {
     font-size: 32px;
     line-height: 114%;
+    text-wrap: balance;
   }
 
   .projects-container {
@@ -2989,6 +2990,117 @@ img {
   .about-zayavka .zayavka-form-container input {
     width: 100%;
     max-width: 540px;
+  }
+
+  .product__actions {
+    flex-direction: column;
+  }
+
+  .product__btn--primary {
+    max-width: 100%;
+  }
+
+  .project-plan__consult {
+    display: none;
+  }
+
+  .product__detail {
+    align-items: normal;
+    gap: 70px;
+  }
+
+  .intro-breadcrumb {
+    margin-bottom: 40px;
+  }
+
+  .product__title {
+    font-size: 32px;
+    line-height: 130%;
+    text-wrap: balance;
+    margin-bottom: 32px;
+  }
+
+  .product__specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .project-features__label {
+    font-size: 12px;
+  }
+
+  .project-features__value {
+    font-size: 12px;
+  }
+
+  .project-features__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
+  .project-features__item {
+    display: none;
+  }
+
+  .project-features__item.visible {
+    display: flex;
+  }
+
+  .show-more-btn {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #262626;
+  }
+
+  .project-features__columns {
+    margin-bottom: 110px;
+  }
+
+  .faq__question {
+    font-size: 14px;
+  }
+
+  .faq__answer {
+    font-size: 12px;
+    margin-top: 18px;
+  }
+
+  .recommendations__title {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 21px;
+  }
+
+  .recommendations__button {
+    border-radius: 15px;
+    font-size: 14px;
+  }
+
+  .recommendationsSwiper {
+    display: none !important;
+  }
+
+  .recommendations-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .pr-zayavka {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
   }
 
 }

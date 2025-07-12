@@ -93,6 +93,11 @@
 
     <main class="product">
       <div class="container">
+        <div class="intro-breadcrumb only-mob">
+              <a href="index.html">Главная / </a>
+              <a href="#">Каталог</a> /
+              <a href="project.html">Дома под ключ</a>
+            </div>
         <!-- Product Detail Section -->
         <section class="product__detail">
           <div class="product__gallery">
@@ -284,7 +289,7 @@
           </div>
 
           <div class="product__info-wrapper">
-            <div class="intro-breadcrumb">
+            <div class="intro-breadcrumb only-pc">
               <a href="index.html">Главная / </a>
               <a href="#">Каталог</a> /
               <a href="project.html">Дома под ключ</a>
@@ -411,6 +416,7 @@
                   >
                   <span class="project-features__value">2 100 мм</span>
                 </div>
+                
                 <div class="project-features__item">
                   <span class="project-features__label"
                     >Высота второго этажа:</span
@@ -460,6 +466,20 @@
                   <span class="project-features__value">2 100 мм</span>
                 </div>
               </div>
+              <a class="show-more-btn" id="showMoreBtn">Раскрыть все характеристики
+                <span>
+                  <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_136_278)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99626 6.77137L3.98922 3.00004L4.9908 2.05737L8.49705 5.35737L12.0033 2.05737L13.0049 3.00004L8.99784 6.77137C8.86501 6.89635 8.68487 6.96656 8.49705 6.96656C8.30923 6.96656 8.12909 6.89635 7.99626 6.77137Z" fill="black" fill-opacity="0.8" />
+  </g>
+  <defs>
+    <clipPath id="clip0_136_278">
+      <rect width="8" height="17" fill="white" transform="translate(17) rotate(90)" />
+    </clipPath>
+  </defs>
+                  </svg>
+                </span>
+              </a>
             </div>
             <div class="project-features__gallery">
               <img
@@ -738,11 +758,98 @@
               </div>
             </div>
           </div>
+          <div class="recommendations-container">
+            <div class="recommendations__card">
+                <img
+                  src="assets/img/project-example.png"
+                  alt="Дом"
+                  class="recommendations__image"
+                />
+                <div class="recommendations__content">
+                  <div class="recommendations__title">Название дома</div>
+                  <div class="recommendations__separator"></div>
+                  <div class="recommendations__features">
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label">Цена</span>
+                      <span class="recommendations__feature-value">99 м2</span>
+                    </div>
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label"
+                        >Общая площадь</span
+                      >
+                      <span class="recommendations__feature-value"
+                        >от 3 604 300 Р</span
+                      >
+                    </div>
+                  </div>
+                  <button class="recommendations__button">
+                    Подробнее о проекте
+                  </button>
+                </div>
+            </div>
+            <div class="recommendations__card">
+                <img
+                  src="assets/img/project-example.png"
+                  alt="Дом"
+                  class="recommendations__image"
+                />
+                <div class="recommendations__content">
+                  <div class="recommendations__title">Название дома</div>
+                  <div class="recommendations__separator"></div>
+                  <div class="recommendations__features">
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label">Цена</span>
+                      <span class="recommendations__feature-value">99 м2</span>
+                    </div>
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label"
+                        >Общая площадь</span
+                      >
+                      <span class="recommendations__feature-value"
+                        >от 3 604 300 Р</span
+                      >
+                    </div>
+                  </div>
+                  <button class="recommendations__button">
+                    Подробнее о проекте
+                  </button>
+                </div>
+            </div>
+            <div class="recommendations__card">
+                <img
+                  src="assets/img/project-example.png"
+                  alt="Дом"
+                  class="recommendations__image"
+                />
+                <div class="recommendations__content">
+                  <div class="recommendations__title">Название дома</div>
+                  <div class="recommendations__separator"></div>
+                  <div class="recommendations__features">
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label">Цена</span>
+                      <span class="recommendations__feature-value">99 м2</span>
+                    </div>
+                    <div class="recommendations__feature-row">
+                      <span class="recommendations__feature-label"
+                        >Общая площадь</span
+                      >
+                      <span class="recommendations__feature-value"
+                        >от 3 604 300 Р</span
+                      >
+                    </div>
+                  </div>
+                  <button class="recommendations__button">
+                    Подробнее о проекте
+                  </button>
+                </div>
+            </div>
+            
+          </div>
         </section>
         <!-- END Recommendations section fragment -->
 
         <!-- Contact section fragment -->
-        <section class="contact-section">
+        <section class="contact-section only-pc">
           <div class="contact-section__overlay"></div>
           <div class="contact-section__content">
             <div class="contact-section__text">
@@ -769,6 +876,23 @@
             </div>
           </div>
         </section>
+
+        
+        <section class="about-zayavka pr-zayavka only-mob">
+    <img src="assets/img/ab-zayavka-home.png" alt="home" class="ab-zayavka-home only-pc">
+    <div class="container">
+      <div class="about-zayavka-container">
+        <h2 class="section-title about-zayavka-title">Хотите узнать, сколько будет стоить ваш дом мечты?</h2>
+        <p class="section-text about-zayavka-text">Оставьте контакты — мы свяжемся, расскажем всё честно и без навязываний. Просто поговорим о вашем будущем доме </p>
+      </div>
+      <form class="zayavka-form-container">
+        <input type="text" class="form-input" placeholder="Имя">
+        <input type="tel" class="form-input" placeholder="+7 (999) 999-99-99">
+        <button class="form-button" type="submit">Оставить заявку</button>
+      </form>
+    </div>
+    <img src="assets/img/ab-zayavkahome-bg.png" alt="home" class="ab-zayavka-home only-mob">
+        </section>  
         <!-- END Contact section fragment -->
       </div>
     </main>
@@ -832,6 +956,8 @@
   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script src="js/app.js"></script>
+
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const productGalleryThumbs = new Swiper(".productGalleryThumbs", {
@@ -841,13 +967,13 @@
           watchSlidesProgress: true,
           breakpoints: {
             768: {
-              slidesPerView: 4,
+              slidesPerView: 2.5,
             },
             480: {
-              slidesPerView: 3,
+              slidesPerView: 2.5,
             },
             0: {
-              slidesPerView: 2,
+              slidesPerView: 2.5,
             },
           },
         });
