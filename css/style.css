@@ -2336,6 +2336,99 @@ img {
 }
 
 
+.modal-overlay {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  position: fixed;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("assets/img/modal-bg.png") center/cover no-repeat;
+
+  z-index: 9999;
+}
+
+.modal-overlay.show {
+  display: flex;
+  opacity: 1;
+}
+
+
+/* Контент */
+.modal-content {
+  position: relative;
+  background-image: url("../assets/img/modal-bg.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  padding: 90px 82px 120px 82px;
+  max-width: 950px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 10;
+}
+
+.modal-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-wrap: balance;
+}
+
+.modal-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-wrap: balance;
+  margin-top: 40px;
+  margin-bottom: 54px;
+}
+
+.modal-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  max-width: 360px;
+}
+
+.modal-form-container button {
+  background: #6a704c;
+  color: #fff;
+}
+
+.modal-note {
+  margin-top: 21px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #a0a0a0;
+}
+
+.recommendations-container {
+  display: none;
+}
+
+.pr-footer {
+  padding-top: 100px;
+  margin-top: -30px;
+}
+
+
 @media (max-width: 1060px) {
   .info .container {
     gap: 30px;
@@ -3101,6 +3194,53 @@ img {
   .pr-zayavka {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
+  }
+
+  .modal-content {
+    position: relative;
+    background-image: url("../assets/img/mob-modal-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 16px 40px 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .op0 {
+    opacity: 0;
+  }
+
+  .modal-title {
+    font-size: 32px;
+  }
+
+  .modal-text {
+    font-size: 14px;
+  }
+
+  .modal-form-container {
+    max-width: 100%;
+  }
+
+  .modal-note {
+    display: none;
+  }
+
+  .modal-inner {
+    margin-top: 50px;
   }
 
 }

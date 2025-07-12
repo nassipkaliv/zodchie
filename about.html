@@ -9,6 +9,34 @@
 </head>
 <body>
   
+<div class="custom-modal modal-overlay" id="customModal">
+  <div class="modal-content">
+    <div class="modal-header only-mob">
+      <div class="op0">
+      <div class="modal-logo"><img src="assets/img/modal-logo.png" alt="modal-logo"></div>
+
+      </div>
+      <div class="modal-logo"><img src="assets/img/modal-logo.png" alt="modal-logo"></div>
+      <div class="modal-close"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26.9163 9.08084L24.9188 7.08334L16.9997 15.0025L9.08051 7.08334L7.08301 9.08084L15.0022 17L7.08301 24.9192L9.08051 26.9167L16.9997 18.9975L24.9188 26.9167L26.9163 24.9192L18.9972 17L26.9163 9.08084Z" fill="#434343" />
+        </svg>
+      </div>
+    </div>
+    <div class="modal-inner">
+      <h2 class="modal-title">Остались вопросы или хотите обсудить проект?</h2>
+      <p class="modal-text">Оставьте свои контакты — мы свяжемся с вами в ближайшее время и поможем на любом этапе.</p>
+      <form class="modal-form-container">
+        <input type="text" class="form-input" placeholder="Имя">
+        <input type="tel" class="form-input" placeholder="+7 (999) 999-99-99">
+        <button class="form-button" type="submit">Оставить заявку</button>
+      </form>
+      <p class="modal-note">
+        Нажимая на кнопку вы соглашаетесь <br> с условиями политики конфиденциальности
+      </p>
+    </div>
+  </div>
+</div>
+
   <div class="header">
     <div class="container">
       <div class="header-left">
@@ -37,7 +65,7 @@
           </svg>
         </a>
         <a class="header-tel" href="tel:+79454322343">+7 945 432 23 43</a>
-        <button class="header-btn">
+        <button class="header-btn" data-target="#customModal">
           Сделать заказ
         </button>
       </div>
@@ -84,7 +112,7 @@
     </nav>
     <div class="offcanvas-bottom">
       <a class="offcanvas-phone" href="tel:+79454322343">+7 945 432 23 43</a>
-      <button class="offcanvas-btn">Сделать заказ</button>
+      <button class="offcanvas-btn" data-target="#customModal">Сделать заказ</button>
     </div>
   </div>
   <div class="offcanvas-backdrop"></div>
@@ -95,7 +123,8 @@
     <div class="container">
       <div class="intro-left">
         <div class="intro-breadcrumb">
-          Главная / О нас
+          <a href="index.html">Главная&nbsp;/ </a>
+          <a href="#">О нас</a> 
         </div>
         <h4 class="about-intro-title"><span>Строим не просто дома</span> — создаём тёплое, живое пространство для жизни, отдыха и вдохновения.</h4>
         <p class="intro-text">Наша компания специализируется на строительстве домов из бревна и лафета ручной рубки. Мы объединяем многолетний опыт, любовь к дереву и уважение к традициям деревянного зодчества. </p>
