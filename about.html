@@ -41,6 +41,21 @@
           Сделать заказ
         </button>
       </div>
+      <div class="header-mob">
+        <button class="header-burger">
+          <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.625 9.25H32.375V12.3333H4.625V9.25ZM4.625 16.9583H32.375V20.0417H4.625V16.9583ZM4.625 24.6667H32.375V27.75H4.625V24.6667Z" fill="#434343" />
+          </svg>
+        </button>
+        <a href="#" class="header-logo">
+          <img src="assets/img/logo.png" alt="logo">
+        </a>
+        <a class="vk-icon" href="#">
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.74009 9.71428C3.81772 9.71428 0.831308 6.17432 0.714294 0.285706H3.20734C3.28506 4.6113 5.18169 6.43974 6.63566 6.81666V0.285706H9.02479V4.02091C10.4272 3.85962 11.895 2.15954 12.3884 0.285706H14.74C14.3636 2.58988 12.7657 4.2826 11.6366 4.98301C12.7666 5.54929 14.5845 7.03319 15.2857 9.71428H12.701C12.1553 7.92206 10.8183 6.54105 9.02567 6.35259V9.71428H8.74009Z" fill="white" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -76,6 +91,7 @@
 
   <section class="intro about-intro">
     <img src="assets/img/nebo.png" alt="nebo" class="nebo">
+    <img src="assets/img/nebomob.png" alt="nebo" class="nebomob only-mob">
     <div class="container">
       <div class="intro-left">
         <div class="intro-breadcrumb">
@@ -103,6 +119,7 @@
       </div>
     </div>
     <img src="assets/img/intro-right2.png" alt="intro-right" class="intro-right-img">
+    <img src="assets/img/intro-right2-mob.png" alt="intro-right" class="intro-right-img2 only-mob">
   </section>
 
   <section class="wedo">
@@ -218,7 +235,7 @@
     <div class="container">
       <div class="derevo-container">
         <div class="derevo-left">
-          <img src="assets/img/derevo.png" alt="derevo">
+          <img src="assets/img/derevo.png" alt="derevo" class="derevopc">
         </div>
         <div class="derevo-right">
           <div class="derevo-content">
@@ -228,6 +245,7 @@
         </div>
       </div>
     </div>
+    <img src="assets/img/derevomob.png" class="only-mob derevomob" alt="derevo">
   </section>
 
   <section class="our-projects">
@@ -237,20 +255,38 @@
           <h2 class="section-title">Наши проекты</h2>
           <p class="section-text">Мы создаём не просто дома и бани, а уютное пространство, в котором хочется жить.<br>Ручная рубка, натуральное дерево, тепло и красота в каждой детали — смотрите сами.</p>
           <button class="product__btn product__btn--primary">
-            Запросить смету
+            Все проекты
           </button>
           <div class="our-projects-stat">
-            <div class="projects-stat-block">
+            <div class="projects-stat-block only-pc">
               <div class="projects-stat-title">50+</div>
               <div class="projects-stat-text">домов</div>
             </div>
-            <div class="projects-stat-block">
+            <div class="projects-stat-block only-pc">
               <div class="projects-stat-title">10+</div>
               <div class="projects-stat-text">интерьеров</div>
             </div>
-            <div class="projects-stat-block">
+            <div class="projects-stat-block only-pc">
               <div class="projects-stat-title">60+</div>
               <div class="projects-stat-text">бань</div>
+            </div>
+            <div class="projects-stat-content only-mob">
+              <div class="projects-stat-row">
+                <div class="projects-stat-block">
+                  <div class="projects-stat-title">50+</div>
+                  <div class="projects-stat-text">домов</div>
+                </div>
+                <div class="projects-stat-block">
+                  <div class="projects-stat-title">60+</div>
+                  <div class="projects-stat-text">бань</div>
+                </div>
+              </div>
+              <div class="projects-stat-second-row">
+                <div class="projects-stat-block">
+                  <div class="projects-stat-title">10+</div>
+                  <div class="projects-stat-text">интерьеров</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -463,7 +499,7 @@
       </h2>
       <div class="production-container">
         <p class="section-text">Всё начинается с качественного сырья — мы используем древесину зимнего леса: сосну, кедр и лиственницу, заготавливаем её самостоятельно в экологически чистых регионах.</p>
-        <div class="production-arrows">
+        <div class="production-arrows only-pc">
           <div class="arrow-left prod-arrow-left">
             <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_128_175)">
@@ -490,8 +526,14 @@
           </div>
         </div>
       </div>
+      <div class="production-gallery only-mob">
+        <img src="assets/img/prodmob1.png" alt="prodmob">
+        <img src="assets/img/prodmob2.png" alt="prodmob">
+        <img src="assets/img/prodmob3.png" alt="prodmob">
+        <img src="assets/img/prodmob4.png" alt="prodmob">
+      </div>
     </div>
-    <div class="swiper productionSwiper">
+    <div class="swiper productionSwiper only-pc">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="assets/img/prod1.png" alt="foto1" class="prodFoto">
@@ -626,57 +668,69 @@
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto2.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto7.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto3.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto8.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto4.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto9.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto5.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto10.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto6.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto2.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto7.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto3.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto8.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto4.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto9.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto5.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto10.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
         <div class="swiper-slide gallerySlide">
           <img src="assets/img/foto6.png" alt="foto1" class="galeryFoto">
           <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto">
+          <img src="assets/img/foto1.png" alt="foto1" class="galeryFoto only-mob">
         </div>
       </div>
     </div>
   </section>
 
   <section class="about-zayavka">
-    <img src="assets/img/ab-zayavka-home.png" alt="home" class="ab-zayavka-home">
+    <img src="assets/img/ab-zayavka-home.png" alt="home" class="ab-zayavka-home only-pc">
     <div class="container">
       <div class="about-zayavka-container">
         <h2 class="section-title about-zayavka-title">Хотите узнать, сколько будет стоить ваш дом мечты?</h2>
@@ -688,9 +742,10 @@
         <button class="form-button" type="submit">Оставить заявку</button>
       </form>
     </div>
+    <img src="assets/img/ab-zayavkahome-bg.png" alt="home" class="ab-zayavka-home only-mob">
   </section>  
 
-  <section class="contacts">
+  <section class="contacts only-pc">
     <div class="container">
       <div class="contacts-container">
               <div class="contact-card">
@@ -804,11 +859,15 @@
       1024: {
         slidesPerView: 6,
       },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
       480: {
-        slidesPerView: 2,
+        slidesPerView: 2.3,
       },
       0: {
-        slidesPerView: 1,
+        slidesPerView: 2.3,
       },
     }
   });
@@ -852,7 +911,7 @@
               slidesPerView: 3,
             },
             0: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
           },
         });
